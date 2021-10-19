@@ -4,7 +4,7 @@
   <head>
     <meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.6.0" />
     <meta charset="utf-8" />
-    <title>Erehwon Guest House Template</title>
+    <title>Erehwon Guest House Contact Form</title>
     <meta name="keywords" content="Erehwon Guest House, West Coast Breaks, Competitive Prices,
     Family Business, Bed and Breakfast, Bed &amp; Breakfast, Contact Erehwon Guest House" />
     <meta name="description" content="Erehwon Guest House is your home from home place to 
@@ -33,6 +33,41 @@
       <a href="contact.html">Contact us</a>
     </p>
     </nav>
+    <!-- Opening the form element -->
+
+<form action="mailto:mike@erehwon.open.ac.uk" method="post"> 
+
+  <!-- Contact information fieldset -->
+  
+  <div id="forminfo">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label>First Name: <input name="first_name" type="text" /></label>
+      <label>Last Name: <input name="last_name" type="text" /></label><br />
+      <label>Email: <input name="email_address" type="text" /></label>
+    </fieldset>
+
+  <!-- Type of feedback fieldset -->
+
+    <fieldset>
+      <legend>Type of feedback</legend>
+      <label><input name="feedback_type" type="checkbox" value="Availability" /> Room Availability</label>
+      <label><input name="feedback_type" type="checkbox" value="Feedback" /> Feedback</label>
+    </fieldset>
+
+  <!-- Input text Fieldset -->
+  
+    <fieldset>
+      <legend>Your feedback:</legend>
+      <p>Enter your feedback in the space below:</p><br />
+      <textarea name="Query" rows="15" cols="60"></textarea>
+    </fieldset>
+  
+    <p><input type="submit" name="submit" value="Submit" /></p>
+  
+  </div>
+  
+</form>
 
     <footer class ="footer">&copy; 2021 Tadeu Vaccari.</footer>
   

@@ -18,7 +18,6 @@ body {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 14pt;
     text-align: center;
-
 }
 
 #info {
@@ -27,17 +26,14 @@ body {
     text-align: left;
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 12px;
-   
 }
 
 #landscape {
     position: absolute; left: 480px; top: 220px;
-    
 }
 
 #portrait {
     position: absolute; left: 24px; top: 300px;
-    
 }
 
 #featuretext {
@@ -47,7 +43,6 @@ body {
     font-size: 14px;
     color: #000000;
     text-align: left;
-    
 }
 
 #rooms {
@@ -56,12 +51,10 @@ body {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 12px; 
     text-align: left;
-    
 }
 
 #accentimages {
     position: absolute; left: 24px; top: 750px;
-   
 }
 
 .footer {
@@ -69,15 +62,13 @@ body {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #000000;
-    
 }
 
-.slide {
+.slides {
     position: absolute; left: 24px; top: 250px; 
     font-family: Geneva, Arial, Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #000000;
-
 }
 
 .slideprevious {
@@ -85,7 +76,6 @@ body {
     font-family: Geneva, Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #000000;
-
 }
 
 .slidenext {
@@ -93,5 +83,82 @@ body {
     font-family: Geneva, Arial, Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #000000;
+}
 
+#map {
+    position: absolute; left: 20px; 
+    
+}
+
+#address {
+    position: absolute; left: 440px; top: 360px;
+}
+
+.boldhead {
+    position: absolute; left: 20px; top: 260px; 
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px; font-weight: bold;
+    color: #000000;        
+}
+
+span.underline{
+    text-decoration:underline;
+}
+
+#weekly{
+    position: absolute; left: 20px; top: 50px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#weekends{
+    position: absolute; left: 20px; top: 130px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#details{
+    position: absolute; left: 20px; top: 300px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+    
+#link1 {
+    position: absolute; left: 20px; top: 30px;
+    width:240px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px; 
+}           
+    
+#link2 {
+    position: absolute; left: 20px; top: 110px;
+    width:240px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;         
+}
+    
+#link3 {
+    position: absolute; left: 20px; top: 210px;
+    width:240px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px; 
+}
+    
+#link4 {
+    position: absolute; left: 20px; top: 290px;
+    width:240px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+    
+#link5 {
+    position: absolute; left: 20px; top: 390px;
+    width:240px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 13px;         
+}
+
+#forminfo { 
+    font-family: Geneva, Arial, Helvetica, sans-serif; 
+    font-size: 13px;
 }
